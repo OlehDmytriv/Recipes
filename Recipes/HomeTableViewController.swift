@@ -25,12 +25,11 @@ class HomeTableViewController: UIViewController {
             
             var tempRecipes:[Recipe] = []
             
-            let recipe1 = Recipe(mainImage: #imageLiteral(resourceName: "chicken-marsala"), category: "Chicken", name: "Chicken Marsala", time: "15 minutes", difficulty: "Easy", serves: "2 People")
-            let recipe2 = Recipe(mainImage: #imageLiteral(resourceName: "sweet-spicy-chicken"), category: "Chicken", name: "Chicken Marsala", time: "15 minutes", difficulty: "Easy", serves: "2 People")
-            let recipe3 = Recipe(mainImage: #imageLiteral(resourceName: "guacamole"), category: "Chicken", name: "Chicken Marsala", time: "15 minutes", difficulty: "Easy", serves: "2 People")
-            let recipe4 = Recipe(mainImage: #imageLiteral(resourceName: "chorizo-bell-peppers"), category: "Chicken", name: "Chicken Marsala", time: "15 minutes", difficulty: "Easy", serves: "2 People")
-            
-            
+            let recipe1 = Recipe(mainImage: #imageLiteral(resourceName: "chicken-marsala"), category: "Chicken", name: "Chicken Marsala", time: "30 minutes", difficulty: "Medium", serves: "4 People")
+            let recipe2 = Recipe(mainImage: #imageLiteral(resourceName: "sweet-spicy-chicken"), category: "Chicken", name: "Sweet, Sticky and Spicy Chicken", time: "22 minutes", difficulty: "Easy", serves: "4 People")
+            let recipe3 = Recipe(mainImage: #imageLiteral(resourceName: "chorizo-bell-peppers"), category: "Stuffed", name: "Chorizo Stuffed Bell Peppers", time: "1 hour 40 minutes", difficulty: "Hard", serves: "6 People")
+            let recipe4 = Recipe(mainImage: #imageLiteral(resourceName: "chocolate-chip-cookie"), category: "Dessert", name: "Best Chocolate Chip Cookie", time: "1 hour", difficulty: "Easy", serves: "24 People")
+            let recipe5 = Recipe(mainImage: #imageLiteral(resourceName: "guacamole"), category: "Dips", name: "Guacamole", time: "10 minutes", difficulty: "Easy", serves: "4 People")
             
             tempRecipes.append(recipe1)
             tempRecipes.append(recipe2)
