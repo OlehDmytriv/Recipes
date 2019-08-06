@@ -26,8 +26,16 @@ class HomeTableViewController: UIViewController {
             var tempRecipes:[Recipe] = []
             
             let recipe1 = Recipe(mainImage: #imageLiteral(resourceName: "chicken-marsala"), category: "Chicken", name: "Chicken Marsala", time: "15 minutes", difficulty: "Easy", serves: "2 People")
+            let recipe2 = Recipe(mainImage: #imageLiteral(resourceName: "sweet-spicy-chicken"), category: "Chicken", name: "Chicken Marsala", time: "15 minutes", difficulty: "Easy", serves: "2 People")
+            let recipe3 = Recipe(mainImage: #imageLiteral(resourceName: "guacamole"), category: "Chicken", name: "Chicken Marsala", time: "15 minutes", difficulty: "Easy", serves: "2 People")
+            let recipe4 = Recipe(mainImage: #imageLiteral(resourceName: "chorizo-bell-peppers"), category: "Chicken", name: "Chicken Marsala", time: "15 minutes", difficulty: "Easy", serves: "2 People")
+            
+            
             
             tempRecipes.append(recipe1)
+            tempRecipes.append(recipe2)
+            tempRecipes.append(recipe3)
+            tempRecipes.append(recipe4)
             
             return tempRecipes
         }
@@ -39,6 +47,15 @@ class HomeTableViewController: UIViewController {
     }
     
 extension HomeTableViewController: UITableViewDelegate, UITableViewDataSource {
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
         
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             return recipes.count
@@ -48,6 +65,7 @@ extension HomeTableViewController: UITableViewDelegate, UITableViewDataSource {
        
             let recipe = recipes[indexPath.row]
             let cell = tableView.dequeueReusableCell(withIdentifier: "RecipeCell") as! RecipeCell
+            cell.selectionStyle = .none
             cell.setRecipe(recipe: recipe)
             return cell
         }

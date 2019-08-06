@@ -10,14 +10,13 @@
 		FC3F381622F7DE1E005C26B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F381522F7DE1E005C26B2 /* AppDelegate.swift */; };
 		FC3F381B22F7DE1E005C26B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3F381922F7DE1E005C26B2 /* Main.storyboard */; };
 		FC3F381D22F7DE20005C26B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3F381C22F7DE20005C26B2 /* Assets.xcassets */; };
-		FC3F382022F7DE20005C26B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3F381E22F7DE20005C26B2 /* LaunchScreen.storyboard */; };
 		FC3F382B22F7DE20005C26B2 /* RecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F382A22F7DE20005C26B2 /* RecipesTests.swift */; };
 		FC3F383622F7DE20005C26B2 /* RecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F383522F7DE20005C26B2 /* RecipesUITests.swift */; };
 		FC3F384422F7E16E005C26B2 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F384322F7E16E005C26B2 /* HomeTableViewController.swift */; };
 		FC3F384622F7E223005C26B2 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F384522F7E223005C26B2 /* RecipeCell.swift */; };
-		FC3F384822F7E22F005C26B2 /* RecipeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3F384722F7E22F005C26B2 /* RecipeCell.xib */; };
 		FC3F385222F8AAE9005C26B2 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F385122F8AAE9005C26B2 /* Recipe.swift */; };
 		FC3F385422F9D0CC005C26B2 /* IngredientsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F385322F9D0CC005C26B2 /* IngredientsTableView.swift */; };
+		FC3F385622F9EF08005C26B2 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F385522F9EF08005C26B2 /* RecipeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +41,6 @@
 		FC3F381522F7DE1E005C26B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC3F381A22F7DE1E005C26B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC3F381C22F7DE20005C26B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FC3F381F22F7DE20005C26B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC3F382122F7DE20005C26B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC3F382622F7DE20005C26B2 /* RecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3F382A22F7DE20005C26B2 /* RecipesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesTests.swift; sourceTree = "<group>"; };
@@ -52,9 +50,9 @@
 		FC3F383722F7DE20005C26B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC3F384322F7E16E005C26B2 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		FC3F384522F7E223005C26B2 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
-		FC3F384722F7E22F005C26B2 /* RecipeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeCell.xib; sourceTree = "<group>"; };
 		FC3F385122F8AAE9005C26B2 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		FC3F385322F9D0CC005C26B2 /* IngredientsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsTableView.swift; sourceTree = "<group>"; };
+		FC3F385522F9EF08005C26B2 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +106,12 @@
 				FC3F381522F7DE1E005C26B2 /* AppDelegate.swift */,
 				FC3F381922F7DE1E005C26B2 /* Main.storyboard */,
 				FC3F381C22F7DE20005C26B2 /* Assets.xcassets */,
-				FC3F381E22F7DE20005C26B2 /* LaunchScreen.storyboard */,
 				FC3F382122F7DE20005C26B2 /* Info.plist */,
 				FC3F384322F7E16E005C26B2 /* HomeTableViewController.swift */,
 				FC3F384522F7E223005C26B2 /* RecipeCell.swift */,
-				FC3F384722F7E22F005C26B2 /* RecipeCell.xib */,
 				FC3F385122F8AAE9005C26B2 /* Recipe.swift */,
 				FC3F385322F9D0CC005C26B2 /* IngredientsTableView.swift */,
+				FC3F385522F9EF08005C26B2 /* RecipeViewController.swift */,
 			);
 			path = Recipes;
 			sourceTree = "<group>";
@@ -241,10 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3F382022F7DE20005C26B2 /* LaunchScreen.storyboard in Resources */,
 				FC3F381D22F7DE20005C26B2 /* Assets.xcassets in Resources */,
 				FC3F381B22F7DE1E005C26B2 /* Main.storyboard in Resources */,
-				FC3F384822F7E22F005C26B2 /* RecipeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +266,7 @@
 			files = (
 				FC3F384422F7E16E005C26B2 /* HomeTableViewController.swift in Sources */,
 				FC3F381622F7DE1E005C26B2 /* AppDelegate.swift in Sources */,
+				FC3F385622F9EF08005C26B2 /* RecipeViewController.swift in Sources */,
 				FC3F385422F9D0CC005C26B2 /* IngredientsTableView.swift in Sources */,
 				FC3F384622F7E223005C26B2 /* RecipeCell.swift in Sources */,
 				FC3F385222F8AAE9005C26B2 /* Recipe.swift in Sources */,
@@ -315,14 +311,6 @@
 				FC3F381A22F7DE1E005C26B2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FC3F381E22F7DE20005C26B2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC3F381F22F7DE20005C26B2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

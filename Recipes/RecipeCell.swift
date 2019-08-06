@@ -17,6 +17,7 @@ class RecipeCell: UITableViewCell {
     @IBOutlet weak var difficulty: UILabel!
     @IBOutlet weak var serves: UILabel!
     
+    
     func setRecipe(recipe: Recipe){
         mainImage.image = recipe.mainImage
         category.text = recipe.category
