@@ -150,7 +150,7 @@
         <!--Recipe View Controller-->
         <scene sceneID="dqr-Fv-Fld">
             <objects>
-                <viewController id="nUw-6z-WOd" customClass="RecipeViewController" customModule="Recipes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nUw-6z-WOd" customClass="RecipeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b1q-eP-MEj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -254,15 +254,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="CQ5-tr-cox"/>
                     </view>
-                    <connections>
-                        <outlet property="ingredientsTable" destination="4Y8-hx-ocI" id="XcC-g6-h66"/>
-                        <outlet property="mainCategory" destination="Kti-dV-rjz" id="CDj-2c-IHD"/>
-                        <outlet property="mainDifficulty" destination="P7a-jC-fXa" id="bxK-Cl-Gq3"/>
-                        <outlet property="mainName" destination="0R8-gL-s55" id="Lsr-aN-MDY"/>
-                        <outlet property="mainRecipeImage" destination="7hA-Ju-7Ic" id="zfP-nr-I0k"/>
-                        <outlet property="mainSurves" destination="Rdr-Dn-6PB" id="zFb-eB-h4n"/>
-                        <outlet property="mainTime" destination="h5K-17-MRv" id="7YX-yF-eg9"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="88L-aa-sUZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

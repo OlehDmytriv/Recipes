@@ -10,8 +10,6 @@ import UIKit
 
 class RecipeViewController: UIViewController {
 
-    @IBOutlet weak var ingredientsTable: UITableView!
-    var ingredients = ["hero", "The Boys of Brighton Beach", "This Time is Different", "BS Book"]
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(true, animated: animated)
@@ -21,5 +19,15 @@ class RecipeViewController: UIViewController {
         super.viewWillDisappear(animated)
         navigationController?.setNavigationBarHidden(false, animated: animated)
     }
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
 
 }

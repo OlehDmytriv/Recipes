@@ -15,8 +15,7 @@
 		FC3F384422F7E16E005C26B2 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F384322F7E16E005C26B2 /* HomeTableViewController.swift */; };
 		FC3F384622F7E223005C26B2 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F384522F7E223005C26B2 /* RecipeCell.swift */; };
 		FC3F385222F8AAE9005C26B2 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F385122F8AAE9005C26B2 /* Recipe.swift */; };
-		FC3F385422F9D0CC005C26B2 /* IngredientsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F385322F9D0CC005C26B2 /* IngredientsTableView.swift */; };
-		FC3F385622F9EF08005C26B2 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F385522F9EF08005C26B2 /* RecipeViewController.swift */; };
+		FC3F385A22F9F931005C26B2 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F385922F9F931005C26B2 /* RecipeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +50,7 @@
 		FC3F384322F7E16E005C26B2 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		FC3F384522F7E223005C26B2 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 		FC3F385122F8AAE9005C26B2 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
-		FC3F385322F9D0CC005C26B2 /* IngredientsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsTableView.swift; sourceTree = "<group>"; };
-		FC3F385522F9EF08005C26B2 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		FC3F385922F9F931005C26B2 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +108,7 @@
 				FC3F384322F7E16E005C26B2 /* HomeTableViewController.swift */,
 				FC3F384522F7E223005C26B2 /* RecipeCell.swift */,
 				FC3F385122F8AAE9005C26B2 /* Recipe.swift */,
-				FC3F385322F9D0CC005C26B2 /* IngredientsTableView.swift */,
-				FC3F385522F9EF08005C26B2 /* RecipeViewController.swift */,
+				FC3F385922F9F931005C26B2 /* RecipeViewController.swift */,
 			);
 			path = Recipes;
 			sourceTree = "<group>";
@@ -266,10 +263,9 @@
 			files = (
 				FC3F384422F7E16E005C26B2 /* HomeTableViewController.swift in Sources */,
 				FC3F381622F7DE1E005C26B2 /* AppDelegate.swift in Sources */,
-				FC3F385622F9EF08005C26B2 /* RecipeViewController.swift in Sources */,
-				FC3F385422F9D0CC005C26B2 /* IngredientsTableView.swift in Sources */,
 				FC3F384622F7E223005C26B2 /* RecipeCell.swift in Sources */,
 				FC3F385222F8AAE9005C26B2 /* Recipe.swift in Sources */,
+				FC3F385A22F9F931005C26B2 /* RecipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
