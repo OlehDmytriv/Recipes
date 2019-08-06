@@ -150,7 +150,7 @@
         <!--Recipe View Controller-->
         <scene sceneID="dqr-Fv-Fld">
             <objects>
-                <viewController id="nUw-6z-WOd" customClass="RecipeViewController" sceneMemberID="viewController">
+                <viewController id="nUw-6z-WOd" customClass="RecipeViewController" customModule="Recipes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b1q-eP-MEj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

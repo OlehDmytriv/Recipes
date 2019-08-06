@@ -49,7 +49,11 @@ class HomeTableViewController: UIViewController {
 extension HomeTableViewController: UITableViewDelegate, UITableViewDataSource {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationController?.setNavigationBarHidden(true, animated: animated)
+        self.title = "Recipes"
+        if #available(iOS 11, *) {
+            self.navigationController?.navigationBar.prefersLargeTitles = true
+            self.navigationController?.navigationItem.largeTitleDisplayMode = .always
+        }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
