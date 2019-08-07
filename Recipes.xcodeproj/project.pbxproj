@@ -16,6 +16,7 @@
 		FC3F384622F7E223005C26B2 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F384522F7E223005C26B2 /* RecipeCell.swift */; };
 		FC3F385222F8AAE9005C26B2 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F385122F8AAE9005C26B2 /* Recipe.swift */; };
 		FC3F385A22F9F931005C26B2 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F385922F9F931005C26B2 /* RecipeViewController.swift */; };
+		FC3F385C22FA280D005C26B2 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F385B22FA280D005C26B2 /* ShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FC3F384522F7E223005C26B2 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 		FC3F385122F8AAE9005C26B2 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		FC3F385922F9F931005C26B2 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		FC3F385B22FA280D005C26B2 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				FC3F384522F7E223005C26B2 /* RecipeCell.swift */,
 				FC3F385122F8AAE9005C26B2 /* Recipe.swift */,
 				FC3F385922F9F931005C26B2 /* RecipeViewController.swift */,
+				FC3F385B22FA280D005C26B2 /* ShadowView.swift */,
 			);
 			path = Recipes;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3F385C22FA280D005C26B2 /* ShadowView.swift in Sources */,
 				FC3F384422F7E16E005C26B2 /* HomeTableViewController.swift in Sources */,
 				FC3F381622F7DE1E005C26B2 /* AppDelegate.swift in Sources */,
 				FC3F384622F7E223005C26B2 /* RecipeCell.swift in Sources */,

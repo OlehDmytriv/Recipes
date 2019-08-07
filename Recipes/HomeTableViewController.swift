@@ -55,11 +55,14 @@ extension HomeTableViewController: UITableViewDelegate, UITableViewDataSource {
         if #available(iOS 11, *) {
             self.navigationController?.navigationBar.prefersLargeTitles = true
             self.navigationController?.navigationItem.largeTitleDisplayMode = .always
+            self.navigationItem.setHidesBackButton(true, animated:true);
+            self.tableView.separatorStyle = .none
         }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
+        
         navigationController?.setNavigationBarHidden(false, animated: animated)
     }
         
@@ -79,6 +82,16 @@ extension HomeTableViewController: UITableViewDelegate, UITableViewDataSource {
         func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
             return 260
         }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vs = storyboard?.instantiateViewController(withIdentifier: "RecipeViewController") as? RecipeViewController
+        self.navigationController?.pushViewController(vs!, animated: true)
+        vs!.image = recipes[indexPath.row].mainImage
+        vs!.category = recipes[indexPath.row].category
+        vs!.name = recipes[indexPath.row].name
+        vs!.time = recipes[indexPath.row].time
+        vs!.difficulty = recipes[indexPath.row].difficulty
+        vs!.serves = recipes[indexPath.row].serves
         
+    }
         
 }
