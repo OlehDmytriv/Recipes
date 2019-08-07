@@ -276,8 +276,8 @@
                         <viewLayoutGuide key="safeArea" id="CQ5-tr-cox"/>
                     </view>
                     <connections>
-                        <outlet property="ingredients" destination="blr-9K-Elb" id="BEV-lZ-oWN"/>
-                        <outlet property="instructions" destination="blr-9K-Elb" id="ugJ-LV-VH0"/>
+                        <outlet property="ingredients" destination="yqA-90-2Lh" id="Ttf-oY-dTZ"/>
+                        <outlet property="instructions" destination="blr-9K-Elb" id="gv3-3y-Fkm"/>
                         <outlet property="mainCategory" destination="Kti-dV-rjz" id="KIi-de-2x3"/>
                         <outlet property="mainDifficulty" destination="P7a-jC-fXa" id="8QE-iR-Uhe"/>
                         <outlet property="mainImageRecipe" destination="7hA-Ju-7Ic" id="Qqm-ln-blo"/>

@@ -47,8 +47,9 @@ class RecipeViewController: UIViewController {
         mainServes.text = serves
         
         if(name == "Chicken Marsala"){
-            ingredients.text = "1/4 cup all-purpose flour for coating \n1/2 teaspoon salt \n1/4 teaspoon ground black pepper \n1/2 teaspoon dried oregan \n4 skinless, boneless chicken breast halves - pounded \n1/4 inch thick \n4 tablespoons butter \n4 tablespoons olive oil \n1 cup sliced mushrooms \n1/2 cup Marsala wine \n1/4 cup cooking sherry"
             instructions.text = "1.   In a shallow dish or bowl, mix together the flour, salt, pepper and oregano. Coat chicken pieces in flour mixture.\n2.   In a large skillet, melt butter in oil over medium heat. Place chicken in the pan, and lightly brown. Turn over chicken pieces and add mushrooms. Pour in wine and sherry. Cover skillet; simmer chicken 10 minutes, turning once, until no longer pink and juices run clear."
+            ingredients.text = "1/4 cup all-purpose flour for coating \n1/2 teaspoon salt \n1/4 teaspoon ground black pepper \n1/2 teaspoon dried oregan \n4 skinless, boneless chicken breast halves - pounded \n1/4 inch thick \n4 tablespoons butter \n4 tablespoons olive oil \n1 cup sliced mushrooms \n1/2 cup Marsala wine \n1/4 cup cooking sherry"
+            
         }
         if(name == "Guacamole"){
             ingredients.text = "3 avocados - peeled, pitted, and mashed \n1 lime, juiced \n1 teaspoon salt \n1/2 cup diced onion \n3 tablespoons chopped fresh cilantro \n2 roma (plum) tomatoes, diced \n1 teaspoon minced garlic \n1 pinch ground cayenne pepper (optional)"
